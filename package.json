@@ -1,0 +1,19 @@
+{
+  "name": "mini-jwt",
+  "version": "1.0.0",
+  "description": "A JWT-like authentication token implementation built from scratch for learning",
+  "type": "module",
+  "main": "./src/index.js",
+  "keywords": [
+    "jwt",
+    "authentication",
+    "hmac",
+    "sha256",
+    "security"
+  ],
+  "author": "Ayantik Sarkar",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  }
+}
