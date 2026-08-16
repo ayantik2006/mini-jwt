@@ -1,4 +1,4 @@
-import crypto from "crypto";
+import crypto from "node:crypto";
 
 function base64urlEncode(data) {
   return Buffer.from(data).toString("base64url");
@@ -87,9 +87,3 @@ export function verify(token, JWT_SECRET) {
 
     return payload;
 }
-
-const token=sign({username:"abcd"},"15m","secret");
-
-const payload = verify(token,"secret");
-
-console.log(payload)

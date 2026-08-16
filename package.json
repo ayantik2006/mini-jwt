@@ -13,7 +13,7 @@
   ],
   "author": "Ayantik Sarkar",
   "license": "MIT",
-  "dependencies": {
-    "crypto": "^1.0.1"
-  }
+  "files": [
+    "src"
+  ]
 }
