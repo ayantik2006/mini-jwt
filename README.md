@@ -95,7 +95,7 @@ Internally, the unit is converted to milliseconds and added to the current time 
 ## Installation
 
 ```bash
-npm install mini-jwt
+npm install @ayantik2006/mini-jwt
 ```
 
 Or clone the repository directly to read/modify the source:
@@ -107,7 +107,7 @@ git clone https://github.com/ayantik2006/mini-jwt.git
 ## Usage
 
 ```js
-import { sign, verify } from "mini-jwt";
+import { sign, verify } from "@ayantik2006/mini-jwt";
 ```
 
 ### `sign(payload, expiresIn, JWT_SECRET)`
@@ -134,7 +134,7 @@ Throws an `Error` if:
 ## Example
 
 ```js
-import { sign, verify } from "mini-jwt";
+import { sign, verify } from "@ayantik2006/mini-jwt";
 
 const JWT_SECRET = "secret";
 

@@ -1,5 +1,5 @@
 {
-  "name": "mini-jwt",
+  "name": "@ayantik2006/mini-jwt",
   "version": "1.0.0",
   "description": "A JWT-like authentication token implementation built from scratch for learning",
   "type": "module",
