@@ -80,10 +80,12 @@ export function verify(token, JWT_SECRET) {
     payload=JSON.parse(payload);
 
     let expiresAt=payload.expiresAt;
-    
+
     if(new Date().getTime()>=expiresAt){
         throw new Error("Token Expired");
-    }    
+    }
+
+    delete payload.expiresAt;
 
     return payload;
 }
